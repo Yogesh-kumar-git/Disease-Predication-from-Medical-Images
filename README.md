@@ -1,6 +1,6 @@
 # 🩺 Disease Prediction from Medical Images
 
-A deep learning-based web application that predicts diseases from medical images using Convolutional Neural Networks (CNNs). The system currently supports **Pneumonia detection** from chest X-rays [...]
+A deep learning-based web application that predicts diseases from medical images using Convolutional Neural Networks (CNNs). The system currently supports **Pneumonia detection** from chest X-rays  and Brain Tumour Detection from MRI Sacans
 
 ---
 
@@ -22,26 +22,6 @@ A deep learning-based web application that predicts diseases from medical images
 - 🧠 Transfer learning with **VGG16** (X-Ray) and **MobileNetV2** (Brain Tumour)
 - 🌐 Clean and minimal Streamlit web interface
 
----
-
-## 🗂️ Project Structure
-
-```
-Disease-Prediction-from-Medical-Images/
-│
-├── chest_X-Ray.ipynb               # Notebook: Pneumonia detection model training
-├── Brain_tumour_Detection.ipynb    # Notebook: Brain tumour detection model training
-│
-├── models/
-│   ├── chest_xray_model.h5         # Saved chest X-ray model (VGG16)
-│   ├── brain_tumour_model.h5       # Saved brain tumour model (MobileNetV2)
-│
-├── app.py                          # Streamlit web application
-├── requirements.txt                # Python dependencies
-└── README.md
-```
-
----
 
 ## 🧠 Model Details
 
@@ -190,9 +170,8 @@ pip install -r requirements.txt
 
 ## 👨‍💻 Author
 
-**Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+**Yogesh Kumar**
+- LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/yogesh-kumar-362324298)
 
 ---
 
